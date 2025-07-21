@@ -17,12 +17,12 @@
 ## 📁 Project Structure
 
 trackit-finance-tracker/
-├── index.html           # Main page to add transactions
-├── summary.html         # Page to view summary & transaction history
-├── style.css            # CSS for layout and design
-├── script.js            # JavaScript logic for both pages
-├── trackit_banner.png   # Banner image displayed on top
-├── README.md            # Project documentation (this file)
+-  index.html           # Main page to add transactions
+-  summary.html         # Page to view summary & transaction history
+-  style.css            # CSS for layout and design
+-  script.js            # JavaScript logic for both pages
+-  trackit_banner.png   # Banner image displayed on top
+-  README.md            # Project documentation (this file)
 
 
 
