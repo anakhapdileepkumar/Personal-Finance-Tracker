@@ -2,7 +2,6 @@
 
 **TrackIt!** is a simple, lightweight web application to log your income and expenses, view summaries, and track past transactions. It’s perfect for students and beginners learning web development with HTML, CSS, and JavaScript.
 
----
 
 ## ✨ Features
 
@@ -12,16 +11,15 @@
 - 💾 Save data using browser localStorage (no backend needed)
 - 🎨 Clean, responsive layout with banner and styling
 
----
 
-## 📁 Project Structure
-trackit-finance-tracker/
-├── index.html # Main page to add transactions
-├── summary.html # Page to view summary & history
-├── style.css # CSS for layout and design
-├── script.js # JavaScript for logic and data
-├── trackit_banner.png # Banner image at the top
-├── README.md # You’re reading this!
+## Project Structure
+
+├── index.html           # Main page to add transactions
+├── summary.html         # Page to view summary & transaction history
+├── style.css            # CSS for layout and design
+├── script.js            # JavaScript logic for both pages
+├── trackit_banner.png   # Banner image displayed on top
+├── README.md            # Project documentation (this file)
 
 
 
