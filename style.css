@@ -1,0 +1,190 @@
+/* Page layout */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Card-style main container */
+.main-container {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Banner image */
+.banner {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Transaction list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+/* Delete and submit buttons */
+button {
+  margin-left: 10px;
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+/* Clear All button */
+/* Common Button Style */
+.button-full {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.button-full:hover {
+  background-color: #218838;
+}
+/* Shared button layout */
+.button-full {
+  display: block;                    /* Ensures full width and vertical alignment */
+  width: 100%;
+  text-align: center;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  vertical-align: middle;           /* 🔧 Aligns baseline across types */
+  line-height: 1.5;
+}
+
+/* Clear All (Red) */
+#clear-all {
+  background-color: crimson;
+  color: white;
+}
+
+#clear-all:hover {
+  background-color: darkred;
+}
+
+/* Go to Summary (Green) */
+#summary-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+#summary-btn:hover {
+  background-color: #218838;
+}
+.button-full:link,
+.button-full:visited,
+.button-full:focus {
+  outline: none;
+}
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  color: #333;
+}
+.summary-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.summary-box p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f3f3f3;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
