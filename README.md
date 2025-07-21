@@ -29,5 +29,4 @@
 ### 🧱 1. Clone or Download
 
 ```bash
-git clone https://github.com/your-anakhapdileepkumar/personal-finance-tracker.git
-
+git clone https://github.com/anakhapdileepkumar/Personal-Finance-Tracker.git
